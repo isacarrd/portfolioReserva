@@ -46,41 +46,41 @@ export const Route = createFileRoute("/")({
 });
 
 const skills = [
-  {skill: "Figma", imgSkill: '/public/figmaOrange.svg'},
-  {skill: "HTML5", imgSkill: '/public/html5Orange.svg'},
-  {skill: "CSS3", imgSkill: '/public/css3Orange.svg'},
-  {skill: "Git", imgSkill: '/public/gitOrange.svg'},
-  {skill:"JavaScript", imgSkill: '/public/javascriptOrange.svg'},
-  {skill: "ReactJS", imgSkill: '/public/reactnativeOrange.svg'},
+  {skill: "Figma", imgSkill: '/figmaOrange.svg'},
+  {skill: "HTML5", imgSkill: '/html5Orange.svg'},
+  {skill: "CSS3", imgSkill: '/css3Orange.svg'},
+  {skill: "Git", imgSkill: '/gitOrange.svg'},
+  {skill:"JavaScript", imgSkill: '/javascriptOrange.svg'},
+  {skill: "ReactJS", imgSkill: '/reactnativeOrange.svg'},
 ];
 const projects = [
   {
     name: "heartOfPoets",
-    imgProj: "/public/heartOfpoets.png",
+    imgProj: "/heartOfpoets.png",
     urlProj: "https://heartofpoets.vercel.app/",
     urlRepo: "https://github.com/isacarrd/heartOfPoets",
   },
   {
     name: "Mercadinho Aragão",
-    imgProj: "/public/mercadinhoAragao.png",
+    imgProj: "/mercadinhoAragao.png",
     urlProj: "https://mercadinho-aragao.vercel.app/",
     urlRepo: "https://github.com/isacarrd/mercadinhoAragao",
   },
   {
     name: "Redragon K530",
-    imgProj: "/public/redDragon.png",
+    imgProj: "/redDragon.png",
     urlProj: "https://redragon-draconic.vercel.app/",
     urlRepo: "https://github.com/isacarrd/redragon-draconic",
   },
   {
     name: "ViaCep",
-    imgProj: "/public/viacep.png",
+    imgProj: "/viacep.png",
     urlProj: "https://viacep-tawny.vercel.app/",
     urlRepo: "https://github.com/isacarrd/viaCep",
   },
   {
     name: "Gerenciador de Produtos",
-    imgProj: "/public/gerenciadorProdutos.png",
+    imgProj: "/gerenciadorProdutos.png",
     urlProj: "https://gerenciador-fase1.vercel.app/",
     urlRepo: "https://github.com/isacarrd/gereciadorTeste",
   },
@@ -95,7 +95,7 @@ function Index() {
       </a>
       <header className="nav">
         <a href="#inicio" className="nav-logo flex flex-row gap-1 items-center" aria-label="Início">
-          <img src="/public/logo-16.png" alt="Logo" className="w-fit h-fit" />
+          <img src="/logo-16.png" alt="Logo" className="w-fit h-fit" />
           Front-End
         </a>
         <nav aria-label="Navegação principal">
@@ -159,7 +159,7 @@ function Index() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/public/linkedinOrange.svg"
+                  src="/linkedinOrange.svg"
                   className="lg:w-8 lg:h-8 w-6 h-6"
                   alt="Linkedin Icon"
                 />
@@ -173,7 +173,7 @@ function Index() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/public/githubOrange.svg"
+                  src="/githubOrange.svg"
                   className="lg:w-8 lg:h-8 w-6 h-6"
                   alt="Github Icon"
                 />
